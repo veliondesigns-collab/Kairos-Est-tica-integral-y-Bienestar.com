@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="font-display text-2xl text-cream mb-4">
-              K<span className="text-primary">airos</span>
+            <h3 className="font-display text-2xl mb-4">
+              <span className="text-gold-gradient">Kairos</span>
             </h3>
             <p className="font-body text-sm text-cream/60 leading-relaxed">
               Estética Integral y Bienestar.<br />

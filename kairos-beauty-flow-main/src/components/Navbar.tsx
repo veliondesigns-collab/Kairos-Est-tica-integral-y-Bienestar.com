@@ -21,8 +21,8 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border"
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
-        <a href="#hero" className="font-display text-2xl tracking-wide text-foreground">
-          K<span className="text-gold-gradient">airos</span>
+        <a href="#hero" className="font-display text-2xl tracking-wide">
+          <span className="text-gold-gradient">Kairos</span>
         </a>
 
         {/* Desktop */}

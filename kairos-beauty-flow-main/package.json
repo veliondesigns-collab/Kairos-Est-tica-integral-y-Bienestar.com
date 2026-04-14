@@ -7,12 +7,13 @@
     "node": ">=18.0.0"
   },
   "scripts": {
+    "postinstall": "echo 'Dependencies installed successfully'",
     "install": "npm install",
     "dev": "npx vite",
-    "build": "npx vite build",
-    "build:dev": "npx vite build --mode development",
+    "build": "./node_modules/.bin/vite build",
+    "build:dev": "./node_modules/.bin/vite build --mode development",
     "lint": "eslint .",
-    "preview": "npx vite preview",
+    "preview": "./node_modules/.bin/vite preview",
     "test": "vitest run",
     "test:watch": "vitest"
   },

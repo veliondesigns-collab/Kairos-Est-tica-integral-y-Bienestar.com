@@ -15,3 +15,6 @@ Un centro de estética integral en Carabanchel, Madrid que ofrece tratamientos f
 - Vite
 - Tailwind CSS
 - React Router
+
+---
+*Última actualización: 14/04/2026*
